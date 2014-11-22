@@ -11,12 +11,12 @@ class Collector:
 	crudeOil_value=0
 	gold_value=0
 
-	def __init__(self):
+	def __init__(self):t
 		global response  # for global variables to access across function 
 		global html
 		response=urllib2.urlopen(urlname)
 		html=response.read()
 	
 	
-	def parse():
+
 		
